@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import logisit_model
 
-class GaussianDiscriminantAnalisys:
+class GaussianDiscriminantAnalysis:
     """
     Initialize data and everything that is needed for the class to work.
     Different values can be modifiet here for experimentation, but mainly the samples per class are the ones
@@ -189,7 +189,7 @@ def convert_data(gda_data):
 
 if __name__ == "__main__":
     np.random.seed(28)
-    gda = GaussianDiscriminantAnalisys()
+    gda = GaussianDiscriminantAnalysis()
     gda.plot_data()
 
     regression = logisit_model.Logistic_Regression(training_data=convert_data(gda.whole_training_data),
