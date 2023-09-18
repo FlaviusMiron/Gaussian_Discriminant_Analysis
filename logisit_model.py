@@ -1,6 +1,6 @@
 """
 Logistic regression model that I made in the past, re-tuned for this new task.
-Can be found documented in my other files.
+Can be found documented in my other repositories.
 """
 
 import numpy as np
