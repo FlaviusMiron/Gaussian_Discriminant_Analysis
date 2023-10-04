@@ -4,4 +4,4 @@ Script that implements the Gaussian Discriminant Analysis model and compares its
 for both models. 
 
 Only "gaussian_discriminant_analysis.py" has to be run as this script will automatically import and make use of the logistic regression model. For detailed explanation on the
-ecuation used for deriving the decision boundary, check the pdf file.
+equation used for deriving the decision boundary, check the pdf file.
